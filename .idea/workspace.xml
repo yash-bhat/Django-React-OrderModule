@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7a947875-5e2f-4133-b5d1-8f6c7fb3dad2" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="postgres: database" type="162271b6:PgImplModel$Database" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="postgres: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="postgres: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+      </path>
+      <path>
+        <item name="Database" type="3277223f:DatabaseStructure$DbRootGroup" />
+        <item name="postgres@localhost" type="feb32156:DbDataSourceImpl" />
+        <item name="databases" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="postgres: database" type="162271b6:PgImplModel$Database" />
+        <item name="schemas" type="d4e8921:DatabaseStructure$FamilyGroup" />
+        <item name="public: schema" type="983ebcf7:PgImplModel$Schema" />
+        <item name="tables" type="d4e8921:DatabaseStructure$FamilyGroup" />
+      </path>
+    </expand>
+    <select />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
+  <component name="ProjectId" id="1oUL2HqhLENH2NlWqfN9EZHYqGs" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="DatabaseDriversLRU" value="postgresql" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+    <property name="ts.external.directory.path" value="$PROJECT_DIR$/node_modules/typescript/lib" />
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7a947875-5e2f-4133-b5d1-8f6c7fb3dad2" name="Default Changelist" comment="" />
+      <created>1613336013463</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1613336013463</updated>
+      <workItem from="1613336021779" duration="1142000" />
+      <workItem from="1613626595109" duration="1813000" />
+      <workItem from="1613697912325" duration="1099000" />
+      <workItem from="1613699017626" duration="1539000" />
+      <workItem from="1613701183549" duration="1905000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="335" y="142" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1613336185484">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="335" y="142" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.25.1440.875@0.25.1440.875" timestamp="1613336185484" />
+    <state width="867" height="200" key="GridCell.Tab.0.bottom" timestamp="1613626626849">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="867" height="200" key="GridCell.Tab.0.bottom/0.25.1440.875@0.25.1440.875" timestamp="1613626626849" />
+    <state width="867" height="200" key="GridCell.Tab.0.center" timestamp="1613626626848">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="867" height="200" key="GridCell.Tab.0.center/0.25.1440.875@0.25.1440.875" timestamp="1613626626848" />
+    <state width="867" height="200" key="GridCell.Tab.0.left" timestamp="1613626626847">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="867" height="200" key="GridCell.Tab.0.left/0.25.1440.875@0.25.1440.875" timestamp="1613626626847" />
+    <state width="867" height="200" key="GridCell.Tab.0.right" timestamp="1613626626849">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state width="867" height="200" key="GridCell.Tab.0.right/0.25.1440.875@0.25.1440.875" timestamp="1613626626849" />
+    <state x="207" y="130" key="SettingsEditor" timestamp="1613698493314">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="207" y="130" key="SettingsEditor/0.25.1440.875@0.25.1440.875" timestamp="1613698493314" />
+    <state x="412" y="309" key="com.intellij.ide.util.TipDialog" timestamp="1613705974863">
+      <screen x="0" y="25" width="1440" height="875" />
+    </state>
+    <state x="412" y="309" key="com.intellij.ide.util.TipDialog/0.25.1440.875@0.25.1440.875" timestamp="1613705974863" />
+  </component>
+</project>

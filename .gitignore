@@ -1,0 +1,4 @@
+node_modules
+documentation.txt
+.dbdata
+products/migrations

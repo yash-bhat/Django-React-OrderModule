@@ -1,0 +1,64 @@
+version: '3.3'
+services:
+  backend:
+    build :
+      context: .
+      dockerfile: Dockerfile
+      # this is the docker port
+      # we need to map this port with port of host in ports
+    command: 'python manage.py runserver 0.0.0.0:8000'
+    ports:
+#      - host port:container port
+      - 8000:8000
+    volumes:
+      - .:/app
+    depends_on:
+      - db
+
+  db:
+    image: postgres:11
+    environment:
+      - "POSTGRES_HOST_AUTH_METHOD=trust"
+    volumes:
+      - .dbdata:/var/lib/postgresql/data/
+    ports:
+      - 5432:5432
+
+  celery:
+    build: .
+    command: celery -A backend worker -l info
+    volumes:
+      - .:/app
+    depends_on:
+      - db
+      - rabbitmq
+
+  rabbitmq:
+    image: rabbitmq:3
+    ports:
+      - 5672:5672
+
+#  queue:
+#    build:
+#      context: .
+#      dockerfile: Dockerfile
+#    # somehow since buffered enabled, queue logs were missing
+#    # thus explicitly enabled unbuffered mode here
+#    # command: 'python -u consumer.py'
+#    command: 'python consumer.py'
+#    depends_on:
+#      - db
+
+#  db:
+#    image: mysql:5.7.22
+#    restart: always
+#    environment:
+#      MYSQL_DATABASE: owner
+#      MYSQL_USER: root
+#      MYSQL_PASSWORD: root
+#      MYSQL_ROOT_PASSWORD: root
+#    volumes:
+#      - .dbdata:/var/lib/mysql
+#    ports:
+#      - 33067:3306
+
