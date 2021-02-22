@@ -1,13 +1,22 @@
 # Template for end-to-end E-commerce Order Module
 
 
+Written: TypeScript
 
-##FeaturesWeb APIs:
+Web APIs:
 Django 
 
 
 Frontend:
 React
+
+Celery TQ implemented to keep batch processing seamless for heavy lifting methods
+Celery configured with RabbitMQ for pub/sub
+
+
+
+
+
 
 
 # Getting Started with Create React App
