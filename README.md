@@ -2,11 +2,11 @@
 
 
 
-# Web APIs:
+Web APIs:
 Django 
 
 
-# Frontend:
+Frontend:
 React
 
 
