@@ -10,7 +10,7 @@ Django
 Frontend:
 React
 
-Celery TQ implemented to keep batch processing seamless for heavy lifting methods
+Celery TQ implemented to keep batch processing seamless for heavy lifting methods \
 Celery configured with RabbitMQ for pub/sub
 
 
